@@ -1,0 +1,11 @@
+page-item {
+
+  .list {
+    margin-bottom: 0;
+  }
+
+  ion-textarea {
+    margin-bottom: 10px;
+    border-bottom: 1px solid color($colors, border-color);
+  }
+}
