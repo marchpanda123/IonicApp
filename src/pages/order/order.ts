@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
 
-import {OrderService} from '../../services/order-service';
+import {OrderService} from '../../providers/order-service';
 
 /*
   Generated class for the LoginPage page.

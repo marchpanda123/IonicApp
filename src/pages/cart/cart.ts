@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {NavController, ToastController} from 'ionic-angular';
 
-import {CartService} from '../../services/cart-service';
+import {CartService} from '../../providers/cart-service';
 import {MainTabsPage} from "../main-tabs/main-tabs";
 
 /*

@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {App} from 'ionic-angular';
 
-import {RestaurantService} from '../../services/restaurant-service';
+import {RestaurantService} from '../../providers/restaurant-service';
 import {RestaurantPage} from "../restaurant/restaurant";
 
 /*
