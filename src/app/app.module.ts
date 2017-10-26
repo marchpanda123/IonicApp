@@ -5,12 +5,12 @@ import {BrowserModule} from '@angular/platform-browser';
 import {StatusBar} from '@ionic-native/status-bar';
 import {SplashScreen} from '@ionic-native/splash-screen';
 
-// import services
-import {CategoryService} from '../services/category-service';
-import {ItemService} from '../services/item-service';
-import {OrderService} from '../services/order-service';
-import {RestaurantService} from '../services/restaurant-service';
-import {CartService} from '../services/cart-service';
+// import providers 
+import {CategoryService} from '../providers/category-service';
+import {ItemService} from '../providers/item-service';
+import {OrderService} from '../providers/order-service';
+import {RestaurantService} from '../providers/restaurant-service';
+import {CartService} from '../providers/cart-service';
 // end import services
 
 // import pages
