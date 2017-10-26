@@ -30,6 +30,9 @@ import {WelcomePage} from '../pages/welcome/welcome';
 import {RestaurantPage} from '../pages/restaurant/restaurant';
 import {ItemPage} from '../pages/item/item';
 import {CartPage} from '../pages/cart/cart';
+import { RegisterServiceProvider } from '../providers/register-service/register-service';
+
+import { HttpModule } from '@angular/http';
 // end import pages
 
 @NgModule({
@@ -55,6 +58,7 @@ import {CartPage} from '../pages/cart/cart';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -86,6 +90,7 @@ import {CartPage} from '../pages/cart/cart';
     OrderService,
     RestaurantService,
     CartService,
+    RegisterServiceProvider,
     /* import services */
   ]
 })

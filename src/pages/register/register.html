@@ -18,17 +18,25 @@
   <ion-grid>
     <ion-row>
       <ion-col>
-        <ion-input type="text" placeholder="First Name"></ion-input>
-      </ion-col>
-      <ion-col>
-        <ion-input type="text" placeholder="Last Name"></ion-input>
+        <ion-input type="text" [(ngModel)]="user.username" placeholder="用户名"></ion-input>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col>
-        <ion-input type="email" placeholder="name@example.com"></ion-input>
+        <ion-input type="text" [(ngModel)]="user.name" placeholder="名字"></ion-input>
       </ion-col>
     </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-input type="password" [(ngModel)]="user.password" placeholder="秘密"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-input type="email" [(ngModel)]="user.email" placeholder="邮箱"></ion-input>
+      </ion-col>
+    </ion-row>
+    <!--
     <ion-row>
       <ion-col>
         <ion-label stacked>MOBIlE</ion-label>
@@ -44,13 +52,7 @@
       <ion-col col-9>
         <ion-input type="text" placeholder="201 555 0123"></ion-input>
       </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col>
-        <ion-label stacked>PASSWORD</ion-label>
-        <ion-input type="password"></ion-input>
-      </ion-col>
-    </ion-row>
+    </ion-row> -->
   </ion-grid>
 
   <div margin-top>

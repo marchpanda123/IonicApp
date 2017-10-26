@@ -5,6 +5,7 @@ import { Info } from './info.interface';
 export interface User {
     name:string;
     username:string;
+    password:string;
     email:string;
     oauthfrom:string;
     oauthId:string;
